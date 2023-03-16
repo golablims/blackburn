@@ -34,24 +34,20 @@ theme = 'blackburn'
   # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-    pre = "<i class='fas fa-wrench fa-fw'></i>"
+    pre = "<i class='fas fa-home fa-fw'></i>"
     weight = 1
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "About"
+    name = "Platform"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
-    identifier = "about"
-    url = "/about/"
+    weight = 2
+    identifier = "platform"
+    url = "/platform/"
   [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 4
-    url = "/contact/"
+    name = "Mobile App"
+    pre = "<i class='fas fa-mobile-alt fa-fw'></i>"
+    weight = 3
+    identifier = "mobile"
+    url = "/mobile/"
+
