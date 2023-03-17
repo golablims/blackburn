@@ -1,8 +1,8 @@
 baseurl = "https://www.example.com/" # Make sure to end baseurl with a '/'
-title = "Your site title"
-author = "Your name"
+title = "golab LIMS"
+author = "Slingr"
 # Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2023. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = 'blackburn'
@@ -13,8 +13,8 @@ theme = 'blackburn'
 
 [params]
   # Shown in the home page
-  subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  subtitle = "Slingr app"
+  brand = "golab LIMS"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
@@ -40,26 +40,19 @@ theme = 'blackburn'
     url = "/"
   [[menu.main]]
     name = "Platform"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    pre = "<i class='fas fa-sitemap fa-fw'></i>"
     weight = 2
     identifier = "platform"
     url = "/platform/"
   [[menu.main]]
-    name = "Platform"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 1
-    identifier = "platform-post"
-    url = "/platform/platform"
-    parent = "platform"
-  [[menu.main]]
-    name = "Post 1"
+    name = "Overview"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
     identifier = "platform-post-1"
     url = "/platform/post-1"
     parent = "platform"
   [[menu.main]]
-    name = "Post 2"
+    name = "Views"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
     identifier = "platform-post-2"
@@ -71,4 +64,16 @@ theme = 'blackburn'
     weight = 3
     identifier = "mobile"
     url = "/mobile/"
+  [[menu.main]]
+    name = "Landing Page"
+    pre = "<i class='fas fa-laptop fa-fw'></i>"
+    weight = 4
+    identifier = "landing"
+    url = "/landing/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fas fa-envelope fa-fw'></i>"
+    weight = 5
+    identifier = "contact"
+    url = "/contact/"
 

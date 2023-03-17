@@ -1,8 +1,8 @@
 +++
 title = "Contact"
-date = "2014-04-09"
+date = "2023-03-17"
 sidemenu = "true"
-description = "How to contact me"
+description = "How to contact us"
 +++
 
 <form class="pure-form pure-form-stacked">

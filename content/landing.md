@@ -1,8 +1,8 @@
 +++
-title = "Platform views"
+title = "Landing"
 date = "2023-03-17"
 sidemenu = "true"
-description = "About Slingr platform views"
+description = "About our landing page"
 +++
 
 Hugo is a static site engine written in Go.

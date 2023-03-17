@@ -1,8 +1,8 @@
 +++
-title = "Post 1"
-date = "2022-04-09"
+title = "Platform overview"
+date = "2023-03-17"
 sidemenu = "true"
-description = "About me and this site"
+description = "About Slingr platform"
 +++
 
 Hugo is a static site engine written in Go.
