@@ -13,7 +13,7 @@ theme = 'blackburn'
 
 [params]
   # Shown in the home page
-  subtitle = "Slingr app"
+  subtitle = "golab app documentation"
   brand = "golab LIMS"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
@@ -77,3 +77,12 @@ theme = 'blackburn'
     identifier = "contact"
     url = "/contact/"
 
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter="*"
+  facebook="*"
+  instagram="*"
+  youtube="*"
+  linkedin="*"
+  github="yoshiharuyamashita"
