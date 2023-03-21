@@ -13,10 +13,10 @@
       {{ if .HasChildren }}
         <li class="pure-menu-item pure-menu-has-children">
           <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
-          <ul style="position: unset;" class="pure-menu-children">
+          <ul class="pure-menu-children">
             {{ range .Children }}
-            <li style="padding-left: 20%;" class="pure-menu-item">
-              <a style="white-space: break-spaces;" class="pure-menu-link" href="{{ .URL }}">{{ .Name }}</a>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
           </ul>
