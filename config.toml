@@ -45,19 +45,54 @@ theme = 'blackburn'
     identifier = "platform"
     url = "/platform/"
   [[menu.main]]
-    name = "Overview"
+    name = "Dashboard"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "platform-post-1"
-    url = "/platform/post-1"
+    weight = 1
+    identifier = "dashboard"
+    url = "/platform/dashboard"
     parent = "platform"
   [[menu.main]]
-    name = "Views"
+    name = "Samples"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "samples"
+    url = "/platform/samples"
+    parent = "platform"    
+  [[menu.main]]
+    name = "Patients"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
-    identifier = "platform-post-2"
-    url = "/platform/post-2"
+    identifier = "patients"
+    url = "/platform/patients"
+    parent = "platform"    
+  [[menu.main]]
+    name = "Methods"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "methods"
+    url = "/platform/methods"
     parent = "platform"
+  [[menu.main]]
+    name = "Templates"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 5
+    identifier = "templates"
+    url = "/platform/templates"
+    parent = "platform"
+  [[menu.main]]
+    name = "Tests"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 6
+    identifier = "tests"
+    url = "/platform/tests"
+    parent = "platform"
+  [[menu.main]]
+    name = "Users"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 7
+    identifier = "users"
+    url = "/platform/users"
+    parent = "platform"    
   [[menu.main]]
     name = "Mobile App"
     pre = "<i class='fas fa-mobile-alt fa-fw'></i>"
