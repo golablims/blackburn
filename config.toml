@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com/" # Make sure to end baseurl with a '/'
+baseurl = "https://main--zippy-seahorse-1b06a7.netlify.app/" # Make sure to end baseurl with a '/'
 title = "golab LIMS"
 author = "Slingr"
 # Shown in the side menu
