@@ -11,7 +11,7 @@
     {{ end }}
 
   <!-- CSS -->
-  {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/" }}
+  <!-- {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/" }} -->
 
   {{ "<!--[if lte IE 8]>" | safeHTML }}
   <link rel="stylesheet" href="{{ $purecss }}grids-responsive-old-ie-min.css">
@@ -24,10 +24,10 @@
   <link rel="stylesheet" href="/css/side-menu-old-ie.css">
   {{ "<![endif]-->" | safeHTML }}
   {{ "<!--[if gt IE 8]><!-->" | safeHTML }}
-  <link rel="stylesheet" href="/css/side-menu.css">
+  <link rel="stylesheet" href="./css/side-menu.css">
   {{ "<!--<![endif]-->" | safeHTML }}
-  <link rel="stylesheet" href="/css/pure-min.css">
-  <link rel="stylesheet" href="/css/blackburn.css">
+  <link rel="stylesheet" href="./css/pure-min.css">
+  <link rel="stylesheet" href="./css/blackburn.css">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
